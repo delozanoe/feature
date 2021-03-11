@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Chat</h1>
+    <h3>Mensajes</h3>
+    <div id="messages"></div>
+    <form id="form">
+      <input type="text" id="message" placeholder="Mensaje"  />
+      <input type="text" id="author" />
+      <input type="text" id="ts" />
+      <input type="submit" value="Crear" />
+    </form>
+    <h3>Buscar</h3>
+    <div id="mensajebuscado"></div>
+    <form action="" id="search">
+      <input type="text" id="search">
+      <input type="submit" value="Busqueda"/>
+    </form>
+    <a href="" id="errorGet"></a>
+    <h3>Editar</h3>
+    <form action="" id="put">
+      <input type="text" id="messagePut" placeholder="Mensaje"   />
+      <input type="text" id="authorPut" />
+      <input type="text" id="tsPut" />
+      <input type="submit" value="Editar" />
+    </form>
+    <a href="" id="errorPut"></a>
+    <h3>Eliminar</h3>
+    <form action="" id="delete">
+      <input type="text" id="tsdelete">
+      <input type="submit" value="Eliminar" />
+    </form>
+    <a href="" id="errorDelete"></a>
+    <script src="./javascripts/script.js"></script>
+  </body>
+</html>
